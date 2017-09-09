@@ -12,7 +12,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  const newArray = [ element, ...array ];
+  var newArray = [ element, ...array ];
   return newArray
 }
 
